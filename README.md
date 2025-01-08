@@ -14,7 +14,8 @@ Ce projet implémente un jeu avec des entités mobiles évoluant sur un terrain 
 
 - Python 3.10 - 3.11
 - `Pillow` pour la gestion des images (si vous n'avez pas cette bibliothèque, installez-la avec `pip install Pillow`).
-- -pip install noise
+- pip install opensimplex
+
 
 ### Installation des dépendances
 
