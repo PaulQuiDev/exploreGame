@@ -22,3 +22,29 @@ Ce projet implémente un jeu avec des entités mobiles évoluant sur un terrain 
    ```bash
    git clone <url-du-dépôt>
    cd <nom-du-dossier>
+
+
+/jeu
+│
+├── /assets                  # Dossier contenant les ressources du jeu (images, sons, etc.)
+│   ├── character.png        # Image de l'entité principale (par exemple, un joueur)
+│   ├── chest.png            # Image représentant un coffre
+│   └── water.png            # Image représentant un lac
+│
+├── components.py            # Définit les composants (Position, Render, Collidable, Terrain)
+│
+├── img                      # Dossier contenant des images supplémentaires pour les entités
+│   ├── wall.png             # Image représentant un mur
+│   ├── lake.png             # Image représentant un lac
+│   └── player.png           # Image représentant un joueur
+│
+├── interface.py             # Contient la logique de l'interface graphique (création des fenêtres et des interactions)
+│
+├── main.py                  # Point d'entrée du jeu, initialise tout et démarre l'interface
+│
+├── systems.py               # Contient les systèmes du jeu (Mouvement, Rendu, Logique, Génération de Terrain)
+│
+├── terrain_generator.py     # Contient la logique de génération du terrain procédural
+│
+└── README.md                # Documentation du projet (ce fichier)
+
