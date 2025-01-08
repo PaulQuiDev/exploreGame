@@ -23,7 +23,7 @@ Ce projet implémente un jeu avec des entités mobiles évoluant sur un terrain 
    git clone <url-du-dépôt>
    cd <nom-du-dossier>
 
-
+```bash
 /jeu
 │
 ├── /assets                  # Dossier contenant les ressources du jeu (images, sons, etc.)
